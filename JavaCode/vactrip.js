@@ -232,6 +232,14 @@ styles: [
 var map = new google.maps.Map(document.getElementById("map_canvas"),
  mapOptions);
 
+ // Shortest Trip 
+ 
+ var shorttrip_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/ShortestTravelPath.kml", {
+          suppressInfoWindows: true,
+          preserveViewport: true,
+          map: map
+        });
+ 
 // Amarillo Places
  
  var tylersBBQ_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/TylersBBQ.kml", {
