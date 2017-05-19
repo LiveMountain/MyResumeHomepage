@@ -257,5 +257,44 @@ var map = new google.maps.Map(document.getElementById("map_canvas"),
           preserveViewport: true,
           map: map
         });
+		
+// Arkansas Places
+ 
+ var threefold_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/ThreeFoldNoodles.kml", {
+          suppressInfoWindows: true,
+          preserveViewport: true,
+          map: map
+        });
+ var hogCafe_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/WholeHogCafe.kml", {
+          suppressInfoWindows: true,
+          preserveViewport: true,
+          map: map
+        });
+		
+// Memphis, Tennessee Places
+ 
+ var gusChick_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/GussWorldFamousFriedChicken.kml", {
+          suppressInfoWindows: true,
+          preserveViewport: true,
+          map: map
+        });
+ var centralBBQ_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/CentralBBQ.kml", {
+          suppressInfoWindows: true,
+          preserveViewport: true,
+          map: map
+        });
+		
+// Nashville, Tennessee Places
+ 
+ var robsWW_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/RobertsWesternWorld.kml", {
+          suppressInfoWindows: true,
+          preserveViewport: true,
+          map: map
+        });
+ var monells_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/MonellsDining.kml", {
+          suppressInfoWindows: true,
+          preserveViewport: true,
+          map: map
+        });
 
 }
