@@ -253,6 +253,7 @@ var map = new google.maps.Map(document.getElementById("map_canvas"),
           map: map
         });
 
+
 // Oklahoma Places
  
  var cafe7_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/Cafe7.kml", {
