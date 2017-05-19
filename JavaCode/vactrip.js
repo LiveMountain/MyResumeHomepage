@@ -225,16 +225,36 @@ styles: [
 
 };
 
-// Amarillo Places 
 
-var tylersBBQ = new google.maps.LatLng(36.239695,-106.424282)
+
+
 
 var map = new google.maps.Map(document.getElementById("map_canvas"),
  mapOptions);
 
- var kmlLayer = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/Tyler's BBQ.kml", {
+// Amarillo Places
+ 
+ var tylersBBQ_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/TylersBBQ.kml", {
           suppressInfoWindows: true,
-          preserveViewport: false,
+          preserveViewport: true,
+          map: map
+        });
+ var LWS_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/LWSBrewery.kml", {
+          suppressInfoWindows: true,
+          preserveViewport: true,
+          map: map
+        });
+
+// Oklahoma Places
+ 
+ var cafe7_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/Cafe7.kml", {
+          suppressInfoWindows: true,
+          preserveViewport: true,
+          map: map
+        });
+ var tobyKeiths_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/TobyKeithsILoveThisBarandGrill.kml", {
+          suppressInfoWindows: true,
+          preserveViewport: true,
           map: map
         });
 
