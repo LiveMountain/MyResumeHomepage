@@ -225,10 +225,14 @@ styles: [
 
 };
 
+// Amarillo Places 
+
+var tylersBBQ = new google.maps.LatLng(36.239695,-106.424282)
+
 var map = new google.maps.Map(document.getElementById("map_canvas"),
  mapOptions);
 
- var kmlLayer = new google.maps.KmlLayer(src=kml, {
+ var kmlLayer = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/Tyler's BBQ.kml", {
           suppressInfoWindows: true,
           preserveViewport: false,
           map: map
