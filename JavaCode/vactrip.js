@@ -296,5 +296,18 @@ var map = new google.maps.Map(document.getElementById("map_canvas"),
           preserveViewport: true,
           map: map
         });
+		
+// Mississippi Places
+ 
+ var roosters_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/Roosters.kml", {
+          suppressInfoWindows: true,
+          preserveViewport: true,
+          map: map
+        });
+ var ironhorse_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/TheIronHorseGrill.kml", {
+          suppressInfoWindows: true,
+          preserveViewport: true,
+          map: map
+        });
 
 }
