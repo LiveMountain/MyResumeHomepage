@@ -309,5 +309,20 @@ var map = new google.maps.Map(document.getElementById("map_canvas"),
           preserveViewport: true,
           map: map
         });
+		
+// Baton Rouge, LA Places
+ 
+ var louies_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/LouiesCafe.kml", {
+          suppressInfoWindows: true,
+          preserveViewport: true,
+          map: map
+        });
+ var tonys_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/TonysSeafood.kml", {
+          suppressInfoWindows: true,
+          preserveViewport: true,
+          map: map
+        });
+		
+
 
 }
