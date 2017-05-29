@@ -235,7 +235,7 @@ var map = new google.maps.Map(document.getElementById("map_canvas"),
  // Shortest Trip 
  
  var shorttrip_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/ShortestTravelPath.kml", {
-          suppressInfoWindows: true,
+          suppressInfoWindows: false,
           preserveViewport: true,
           map: map
         });
@@ -243,12 +243,12 @@ var map = new google.maps.Map(document.getElementById("map_canvas"),
 // Amarillo Places
  
  var tylersBBQ_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/TylersBBQ.kml", {
-          suppressInfoWindows: true,
+          suppressInfoWindows: false,
           preserveViewport: true,
           map: map
         });
  var LWS_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/LWSBrewery.kml", {
-          suppressInfoWindows: true,
+          suppressInfoWindows: false,
           preserveViewport: true,
           map: map
         });
@@ -257,12 +257,12 @@ var map = new google.maps.Map(document.getElementById("map_canvas"),
 // Oklahoma Places
  
  var cafe7_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/Cafe7.kml", {
-          suppressInfoWindows: true,
+          suppressInfoWindows: false,
           preserveViewport: true,
           map: map
         });
  var tobyKeiths_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/TobyKeithsILoveThisBarandGrill.kml", {
-          suppressInfoWindows: true,
+          suppressInfoWindows: false,
           preserveViewport: true,
           map: map
         });
@@ -270,12 +270,12 @@ var map = new google.maps.Map(document.getElementById("map_canvas"),
 // Arkansas Places
  
  var threefold_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/ThreeFoldNoodles.kml", {
-          suppressInfoWindows: true,
+          suppressInfoWindows: false,
           preserveViewport: true,
           map: map
         });
  var hogCafe_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/WholeHogCafe.kml", {
-          suppressInfoWindows: true,
+          suppressInfoWindows: false,
           preserveViewport: true,
           map: map
         });
@@ -283,12 +283,12 @@ var map = new google.maps.Map(document.getElementById("map_canvas"),
 // Memphis, Tennessee Places
  
  var gusChick_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/GussWorldFamousFriedChicken.kml", {
-          suppressInfoWindows: true,
+          suppressInfoWindows: false,
           preserveViewport: true,
           map: map
         });
  var centralBBQ_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/CentralBBQ.kml", {
-          suppressInfoWindows: true,
+          suppressInfoWindows: false,
           preserveViewport: true,
           map: map
         });
@@ -296,12 +296,12 @@ var map = new google.maps.Map(document.getElementById("map_canvas"),
 // Nashville, Tennessee Places
  
  var robsWW_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/RobertsWesternWorld.kml", {
-          suppressInfoWindows: true,
+          suppressInfoWindows: false,
           preserveViewport: true,
           map: map
         });
  var monells_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/MonellsDining.kml", {
-          suppressInfoWindows: true,
+          suppressInfoWindows: false,
           preserveViewport: true,
           map: map
         });
@@ -309,12 +309,12 @@ var map = new google.maps.Map(document.getElementById("map_canvas"),
 // Mississippi Places
  
  var roosters_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/Roosters.kml", {
-          suppressInfoWindows: true,
+          suppressInfoWindows: false,
           preserveViewport: true,
           map: map
         });
  var ironhorse_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/TheIronHorseGrill.kml", {
-          suppressInfoWindows: true,
+          suppressInfoWindows: false,
           preserveViewport: true,
           map: map
         });
@@ -322,22 +322,22 @@ var map = new google.maps.Map(document.getElementById("map_canvas"),
 // Baton Rouge, LA Places
  
  var louies_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/LouiesCafe.kml", {
-          suppressInfoWindows: true,
+          suppressInfoWindows: false,
           preserveViewport: true,
           map: map
         });
  var tonys_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/TonysSeafood.kml", {
-          suppressInfoWindows: true,
+          suppressInfoWindows: false,
           preserveViewport: true,
           map: map
         });
  var mall_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/CortanaMall.kml", {
-          suppressInfoWindows: true,
+          suppressInfoWindows: false,
           preserveViewport: true,
           map: map
         });
  var zoo_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/BatonRougeZoo.kml", {
-          suppressInfoWindows: true,
+          suppressInfoWindows: false,
           preserveViewport: true,
           map: map
         });
