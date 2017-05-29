@@ -342,6 +342,14 @@ var map = new google.maps.Map(document.getElementById("map_canvas"),
           map: map
         });
 		
+// West Monroe, LA Places
+ 
+ var duck_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/DuckCommander.kml", {
+          suppressInfoWindows: false,
+          preserveViewport: true,
+          map: map
+        });
+		
 
 		
 
