@@ -3,7 +3,7 @@ var geoCenter = new google.maps.LatLng(32.911297, -96.492920)
 
 
 var mapOptions = {
-zoom: 5,
+zoom: 6,
 center: geoCenter,
 
 mapTypeId: google.maps.MapTypeId.ROADMAP,
