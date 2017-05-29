@@ -292,6 +292,11 @@ var map = new google.maps.Map(document.getElementById("map_canvas"),
           preserveViewport: true,
           map: map
         });
+var graceland_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/Graceland.kml", {
+          suppressInfoWindows: false,
+          preserveViewport: true,
+          map: map
+        });
 		
 // Nashville, Tennessee Places
  
