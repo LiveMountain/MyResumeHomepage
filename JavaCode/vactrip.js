@@ -252,6 +252,14 @@ var map = new google.maps.Map(document.getElementById("map_canvas"),
           preserveViewport: true,
           map: map
         });
+		
+// San Antonio Places
+ 
+ var riverwalk_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/RiverWalk.kml", {
+          suppressInfoWindows: false,
+          preserveViewport: true,
+          map: map
+        });
 
 
 // Oklahoma Places
