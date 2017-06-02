@@ -356,9 +356,4 @@ var graceland_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyR
         });
 		
 
-		
-
-		
-
-
 }
