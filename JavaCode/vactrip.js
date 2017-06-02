@@ -234,7 +234,7 @@ var map = new google.maps.Map(document.getElementById("map_canvas"),
 
  // Shortest Trip 
  
- var shorttrip_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/ShortestTravelPath.kml", {
+ var firstroute_kml = new google.maps.KmlLayer("https://livemountain.github.io/MyResumeHomepage/kml/FirstRoute.kml", {
           suppressInfoWindows: false,
           preserveViewport: true,
           map: map
