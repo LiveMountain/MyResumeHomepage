@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>MonellsDining.kml</name>
-	<Style id="sn_dining">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_dining">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_dining">
+	<name>AlamoPlaza.kml</name>
+	<StyleMap id="msn_poi">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_dining</styleUrl>
+			<styleUrl>#sn_poi</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_dining</styleUrl>
+			<styleUrl>#sh_poi</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_poi">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/poi.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_poi">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/poi.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Placemark>
-		<name>Monell&apos;s Dining</name>
+		<name>Alamo Plaza</name>
 		<LookAt>
-			<longitude>-86.79017478747885</longitude>
-			<latitude>36.17586766987947</latitude>
+			<longitude>-98.48579093404081</longitude>
+			<latitude>29.4258482622085</latitude>
 			<altitude>0</altitude>
-			<heading>-3.850862299338829e-005</heading>
-			<tilt>28.91953632134043</tilt>
-			<range>103.2075502571233</range>
+			<heading>0.0001222388550446056</heading>
+			<tilt>23.02839663767552</tilt>
+			<range>213.8337268455718</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_dining</styleUrl>
+		<styleUrl>#msn_poi</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-86.79022871216633,36.17580355167628,0</coordinates>
+			<coordinates>-98.48614141607523,29.42594863240737,0</coordinates>
 		</Point>
 	</Placemark>
 </Document>
